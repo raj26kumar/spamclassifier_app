@@ -15,4 +15,4 @@ I used lil bit of bootstrap for styling
 > they created main.py where our logic is written for web app and then rendered the templates
 
 
-The download links for datasets is also given in "copyright" file
+The download links for datasets is also given in "copyrights" file
