@@ -23,22 +23,32 @@ def value_predictor(user_input):
 
 @app.route('/result', methods = ['POST'])
 def result():
+
     if request.method == 'POST':
         message = request.form['Message']
-        data = [message]
-        result = value_predictor(data)
-        
-    if int(result) == 0:
-        prediction = "Chill, not a spam"
-    else:
-        prediction = "Its a Spam, be careful"
+
+        if message=="":
+             prediction = "please copy paste the msg/sms"
+
+
+        else:
+            data = [message]
+            result = value_predictor(data)
+            
+            if int(result) == 0:
+                prediction = "Chill, may not a spam"
+            else:
+                prediction = "May be a Spam, be careful"
+   
 
     return render_template("result.html", prediction=prediction)
+
+
 
 if __name__=="__main__":
     app.run()  
     
-#threaded=True, port=5000)
+
 
 
     
