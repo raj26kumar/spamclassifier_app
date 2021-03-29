@@ -13,3 +13,6 @@ I used lil bit of bootstrap for styling
 > First see jyputer note book , there developed our ml model
 > using pickle ,created tfidf.pkl (for reusing tfidf-transformer in production) and spam_model.pkl (for resuing trained model)
 > they created main.py where our logic is written for web app and then rendered the templates
+
+
+The download links for datasets is also given in "copyright" file
