@@ -2,7 +2,7 @@
 This application basically predicts and shows that msg/sms is a spam or not .
 This is an end to end machine learning project.
 
-* Preprocessed that dataset using Natural Language Processing techniches
+* Preprocessed that dataset using Natural Language Processing techniqes
 * Used multinomial naive bayes for prediction 
 * Then created a flask app to deployed our ml model
 * Also deployed this application using Heroku
